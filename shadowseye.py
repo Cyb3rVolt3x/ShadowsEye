@@ -5,6 +5,28 @@ import requests
 import json
 import threading
 
+# Introduction to Cyb3rVolt3x
+def intro():
+    print("""  _________.__                .___                  ___________             
+ /   _____/|  |__ _____     __| _/______  _  _______\_   _____/__.__. ____  
+ \_____  \ |  |  \\__  \   / __ |/  _ \ \/ \/ /  ___/|    __)<   |  |/ __ \ 
+ /        \|   Y  \/ __ \_/ /_/ (  <_> )     /\___ \ |        \___  \  ___/ 
+/_______  /|___|  (____  /\____ |\____/ \/\_//____  >_______  / ____|\___  >
+        \/      \/     \/      \/                 \/        \/\/         \/ 
+    Welcome to Cyb3rVolt3x - Your Ultimate Cybersecurity Arsenal!
+    
+    Developer: Syed Zada Abrar
+    Code Name: Cyb3rVolt3x
+    Community: AndraxHub
+    
+    Prepare to delve into the darkest corners of the digital realm as you harness the power of Cyb3rVolt3x for your bug hunting endeavors. With its advanced tools and malevolent capabilities, no target is safe from your probing gaze.
+    
+    Remember, with great power comes great chaos. Use Cyb3rVolt3x wisely, and may the digital shadows be ever in your favor.
+    """)
+
+# Insert this line before initiating information gathering
+intro()
+
 # Global variable to store found subdomains
 found_subdomains = []
 
